@@ -4,7 +4,7 @@
 
 sudo apt-get -y install git
 
-git clone https://github.com/KhojaHoldingCorp/monero_miner_deployment.git
+git clone https://github.com/ronrws/monero_miner_deployment.git
 
 cd monero_miner_deployment
 
