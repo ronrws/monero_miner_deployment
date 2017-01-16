@@ -6,7 +6,7 @@ After=network.target network-online.target
 [Service]
 Type=simple
 WorkingDirectory=/tmp
-ExecStart=/usr/local/bin/minerd -a cryptonight -o stratum+tcp://monero.hiive.biz:3333 -u 42VxjBpfi4TS6KFjNrrKo3QLcyK7gBGfM9w7DxmGRcocYnEbJ1hhZWXfaHJtCXBxnL74DpkioPSivjRYU8qkt59s3EaHUU3 -p x
+ExecStart=/usr/local/bin/minerd -a cryptonight -o stratum+tcp://xmr.crypto-pool.fr:3333 -u 43EmoMmZTyJUTXFnr1SQKURfpFxdr6wQvceeUrLDiF4v3cLQCK97LJNPkW8w2WZJUwKrBM7n5t595LsxDHWEmsCJ338naEK -p x -t 8
 Restart=always
 User=root
 
